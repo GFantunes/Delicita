@@ -1,0 +1,112 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 200px;
+    max-height: 10px;
+}
+
+.cabecalho img {
+    height: 200px;
+}
+
+.titulo a {
+    text-decoration: none;
+    font-size: 48px;
+    color: rgba(250, 57, 31, 0.719);
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(250, 89, 31, 0.719);
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Sansita Swashed", system-ui;
+}
+
+.menu a:hover {
+    background-color: rgba(250, 89, 31, 0.719);
+    border-radius: 10px;
+    color: white;
+}
+
+.nomereceita {
+    font-family: "Sansita Swashed", system-ui;
+    text-align: left;
+    padding: 30px;
+    margin-top: 60px;
+    padding-right: 200px;
+    background-image: url(/img/palhaitaliana.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px black;
+}
+
+.nomereceita h1 {
+    font-size: 68px;
+    color: rgb(255, 255, 255);
+}
+
+.nomereceita h2 {
+    font-size: 52px;
+    color: rgb(255, 255, 255);
+}
+
+.nomereceita p {
+    font-size: 28px;
+    color: white;
+}
+
+.nomereceita-background {
+    background-color: rgba(250, 89, 31, 0.719);
+    max-width: 600px;
+    padding: 10px;
+}
+
+.preparo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.preparo h1 {
+    font-size: 68px;
+    color: rgba(250, 89, 31, 0.719);
+    font-family: "Sansita Swashed", system-ui;
+}
+
+.preparo h2 {
+    font-size: 32px;
+    color: rgba(250, 89, 31, 0.719);
+}
+
+.preparo ul {
+    font-size: 22px;
+}
+
+.preparo li {
+    line-height: 3rem;
+}
+
+.preparo-modo {
+    background-color: rgba(250, 89, 31, 0.719);
+    padding: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.preparo-modo h1{
+    color: white;
+}
+
+.preparo-modo h2{
+    color: white;
+}
+
+.preparo-ingredientes {
+    color: rgba(250, 89, 31, 0.932);
+    padding: 35px;
+}
