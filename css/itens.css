@@ -4,18 +4,18 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: justify;
 }
+
 .cabecalho img {
     height: 150px;
     max-height: 150px;
     width: auto;
     vertical-align: top;
     margin-bottom: 20px;
-    
 }
 
 .menu {
     text-align: right;
-    margin-top: -100px; 
+    margin-top: -100px;
 }
 
 .menu a {
@@ -30,11 +30,10 @@
 }
 
 .menu a:hover {
-    background-color: rgba(250, 89, 31, 0.719);;
+    background-color: rgba(250, 89, 31, 0.719);
     color: #ffffff;
     border-radius: 5px;
 }
-
 
 @media (max-width: 768px) {
     .cabecalho {
@@ -55,12 +54,17 @@
     }
 }
 
-
 .nomereceita {
     font-family: "Quando", serif;
     text-align: left;
     padding: 30px;
-    background-image: url(/img/palhaitaliana.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.219);
+    color: #ffffff;
+}
+
+.nomereceita-background {
     background-size: cover;
     background-position: center;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.219);
@@ -104,6 +108,7 @@
     }
 }
 
+/* Seção de Preparo */
 .preparo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -145,8 +150,6 @@
     color: #ffffff;
 }
 
-
-
 .preparo-ingredientes {
     color: #ffffff;
     padding: 20px;
@@ -173,4 +176,69 @@
     .preparo-modo, .preparo-ingredientes {
         padding: 15px;
     }
+}
+
+/* Receita com imagens de fundo específicas */
+#beijinho .nomereceita-background {
+    background-image: url("../img/beijinho.jpg");
+}
+
+#brigadeiro .nomereceita-background {
+    background-image: url("../img/brigadeiro.jpg");
+}
+
+#pave .nomereceita-background {
+    background-image: url("../img/pave.jpg");
+}
+
+#coxinha .nomereceita-background {
+    background-image: url("../img/coxinha.jpg");
+}
+
+#empada .nomereceita-background {
+    background-image: url("../img/empada.jpg");
+}
+
+#pastel .nomereceita-background {
+    background-image: url("../img/pastel.jpg");
+}
+
+#esfiha .nomereceita-background {
+    background-image: url("../img/esfiha.jpg");
+}
+
+#caipirinha .nomereceita-background {
+    background-image: url("../img/caipirinha.jpg");
+}
+
+#sotb .nomereceita-background {
+    background-image: url("../img/sotb.jpg");
+}
+
+#cosmopolitan .nomereceita-background {
+    background-image: url("../img/cosmopolitan.jpg");
+}
+
+#margarita .nomereceita-background {
+    background-image: url("../img/margarita.jpg");
+}
+
+#fritas .nomereceita-background {
+    background-image: url("../img/fritas.jpg");
+}
+
+#iscas .nomereceita-background {
+    background-image: url("../img/iscas.jpg");
+}
+
+#passarinho .nomereceita-background {
+    background-image: url("../img/passarinho.jpg");
+}
+
+#onion .nomereceita-background {
+    background-image: url("../img/onion.jpg");
+}
+
+#palha .nomereceita-background {
+    background-image: url("../img/palha.jpg");
 }
