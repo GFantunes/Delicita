@@ -1,110 +1,55 @@
-.sobremesas {
-    display: grid;
-    grid-template-columns: repeat(4, 500px);
-    gap: 10px;
-    overflow: hidden;
-}
-
-.sobremesas-titulo {
+.titulo-secao {
+    font-family: "Quando", serif;
+    font-size: 36px;
     text-align: center;
-    font-family: "Sansita Swashed", system-ui;
-    color: rgb(253, 78, 15);
-    font-size: 28px;
+    margin: 30px 0;
+    color: rgba(253, 78, 15, 0.9);
 }
 
-.sobremesas img {
-    height: 300px;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    object-fit: cover;
-}
-
-.sobremesas img:hover {
-    transform: scale(1.1);
-    
-}
-
-.salgados {
+.galeria {
     display: grid;
-    grid-template-columns: repeat(4, 500px);
-    gap: 10px;
-    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
-.salgados-titulo {
-    text-align: center;
-    font-family: "Sansita Swashed", system-ui;
-    color: rgb(253, 78, 15);
-    font-size: 28px;
-}
-
-.salgados img {
-    height: 300px;
+.galeria img {
     width: 100%;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+    height: 250px;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.salgados img:hover {
-    transform: scale(1.1);
-    
+.galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-.drinks {
-    display: grid;
-    grid-template-columns: repeat(4, 500px);
-    gap: 10px;
-    overflow: hidden;
+@media (max-width: 768px) {
+    .titulo-secao {
+        font-size: 28px;
+        margin: 20px 0;
+    }
+
+    .galeria {
+        padding: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .galeria img {
+        height: 200px;
+    }
 }
 
-.drinks-titulo {
-    text-align: center;
-    font-family: "Sansita Swashed", system-ui;
-    color: rgb(253, 78, 15);
-    font-size: 28px;
-}
 
-.drinks img {
-    height: 300px;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    object-fit: cover;
-}
+@media (max-width: 480px) {
+    .titulo-secao {
+        font-size: 24px;
+    }
 
-.drinks img:hover {
-    transform: scale(1.1);
-    
-}
-
-.petiscos {
-    display: grid;
-    grid-template-columns: repeat(4, 500px);
-    gap: 10px;
-    overflow: hidden;
-}
-
-.petiscos-titulo {
-    text-align: center;
-    font-family: "Sansita Swashed", system-ui;
-    color: rgb(253, 78, 15);
-    font-size: 28px;
-}
-
-.petiscos img {
-    height: 300px;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    object-fit: cover;
-}
-
-.petiscos img:hover {
-    transform: scale(1.1);  
+    .galeria img {
+        height: 180px;
+    }
 }
