@@ -1,8 +1,19 @@
-.copyright {
-    text-align: center;
+.rodape {
     padding: 20px;
+    background-color: #ffffff;
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
-.copyright img {
-    height: 100px;
+
+.rodape img {
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.rodape .copyright-text {
+    font-size: 14px;
+    margin-top: 10px;
 }
