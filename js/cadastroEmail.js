@@ -11,18 +11,17 @@ function validarEmail(email) {
 
 // Função que será chamada quando o formulário for enviado
 function cadastrarEmail(event) {
-    event.preventDefault(); // Impede o envio do formulário
+    event.preventDefault();
 
-    const email = emailInput.value; // Pega o valor do campo de e-mail
+    const email = emailInput.value; 
 
     // Verifica se o e-mail é válido
     if (validarEmail(email)) {
-        alert('Cadastro realizado com sucesso!'); // Sucesso
-        emailInput.value = ''; // Limpa o campo de e-mail após o cadastro
+        alert('Cadastro realizado com sucesso!');
+        emailInput.value = ''; 
     } else {
-        alert('Por favor, insira um e-mail válido.'); // Erro
+        alert('Por favor, insira um e-mail válido.'); 
     }
 }
 
-// Adiciona um ouvinte de evento para quando o formulário for enviado
 form.addEventListener('submit', cadastrarEmail);
