@@ -1,0 +1,176 @@
+.cabecalho {
+    padding: 10px 50px;
+    background-color: var(--background-light);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+.cabecalho img {
+    height: 150px;
+    max-height: 150px;
+    width: auto;
+    vertical-align: top;
+    margin-bottom: 20px;
+    
+}
+
+.menu {
+    text-align: right;
+    margin-top: -100px; 
+}
+
+.menu a {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: rgba(250, 89, 31, 0.719);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu a:hover {
+    background-color: rgba(250, 89, 31, 0.719);;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 10px 20px;
+    }
+
+    .cabecalho img {
+        height: 80px;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+}
+
+
+.nomereceita {
+    font-family: "Quando", serif;
+    text-align: left;
+    padding: 30px;
+    background-image: url(/img/pave.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.219);
+    color: #ffffff;
+}
+
+.nomereceita h1 {
+    font-size: 48px;
+}
+
+.nomereceita h2 {
+    font-size: 40px;
+}
+
+.nomereceita p {
+    font-size: 20px;
+}
+
+.nomereceita-background {
+    background-color: rgba(250, 89, 31, 0.719);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Responsividade para a seção de Nome da Receita */
+@media (max-width: 768px) {
+    .nomereceita h1 {
+        font-size: 36px;
+    }
+
+    .nomereceita h2 {
+        font-size: 28px;
+    }
+
+    .nomereceita p {
+        font-size: 16px;
+    }
+
+    .nomereceita-background {
+        padding: 10px;
+    }
+}
+
+.preparo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+.preparo h1 {
+    font-size: 40px;
+    color: rgba(250, 89, 31, 0.719);
+    font-family: "Poppins", sans-serif;
+}
+
+.preparo h2 {
+    font-size: 32px;
+    color: #555555;
+}
+
+.preparo ul {
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.8;
+}
+
+.preparo li {
+    margin-bottom: 10px;
+}
+
+.preparo-modo {
+    background-color: rgba(250, 89, 31, 0.719);
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.preparo-modo h1,
+.preparo-modo h2,
+.preparo-modo ul {
+    color: #ffffff;
+}
+
+
+
+.preparo-ingredientes {
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Responsividade para a seção de Preparo */
+@media (max-width: 768px) {
+    .preparo {
+        padding: 10px;
+    }
+
+    .preparo h1 {
+        font-size: 28px;
+    }
+
+    .preparo h2 {
+        font-size: 20px;
+    }
+
+    .preparo ul {
+        font-size: 14px;
+    }
+
+    .preparo-modo, .preparo-ingredientes {
+        padding: 15px;
+    }
+}
