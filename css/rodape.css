@@ -1,7 +1,7 @@
 .rodape {
-    padding: 20px;
-    background-color: #ffffff;
-    color: #333333;
+    padding: 30px;
+    background-color: var(--background-light);
+    color: var(--primary-color); 
     font-family: "Poppins", sans-serif;
     text-align: center;
 }
@@ -16,4 +16,5 @@
 .rodape .copyright-text {
     font-size: 14px;
     margin-top: 10px;
+    color: var(--accent-color);
 }
