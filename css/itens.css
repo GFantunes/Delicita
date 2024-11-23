@@ -38,19 +38,23 @@
 @media (max-width: 768px) {
     .cabecalho {
         padding: 10px 20px;
+        height: 100px;
     }
 
     .cabecalho img {
-        height: 80px;
+        visibility: hidden;    
     }
 
     .menu {
+        display: flex;
+        justify-content: space-between;
         width: 100%;
         text-align: left;
+        height: 80px;
     }
 
     .menu a {
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 
@@ -159,6 +163,8 @@
 @media (max-width: 768px) {
     .preparo {
         padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .preparo h1 {

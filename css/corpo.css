@@ -65,7 +65,7 @@
     }
 
     .texto-principal p {
-        font-size: 16px;
+        display: none;
     }
 
     .quantidade-receitas {

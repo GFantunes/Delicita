@@ -80,4 +80,32 @@
     line-height: 1.6;
 }
 
+@media (max-width: 768px) {
+    .cadastro-email{
+        display: grid;
+    }
 
+    .texto-email {
+        margin: auto;
+    }
+
+    .sobre-nos {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1100px) {
+    .cadastro-email{
+        display: grid;
+    }
+
+    .texto-email {
+        margin: auto;
+    }
+
+    .sobre-nos {
+        width: 70%;
+        margin: auto;
+    }
+}
